@@ -33,7 +33,6 @@ jobs:
         keyvault: uzovault
         secrets: |
           uzosec
-
     - name: Output Secret (for demo only)
       run: echo Secret pulled: ${{ steps.fetch-secrets.outputs.uzosec }}
 
