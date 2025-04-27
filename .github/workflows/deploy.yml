@@ -1,3 +1,5 @@
+# Triggering workflow manually
+
 name: Secure Azure Deployment
 
 on:
